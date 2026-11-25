@@ -167,6 +167,15 @@ PizzaPrizeIMS/
 - Older sales remain readable and keep their recorded selling prices. In sales analytics, lines without full snapshots fall back to current product names, categories and recipe costs; historical gross profit for those lines is therefore an estimate. Reprinted legacy receipts retain the details originally recorded on them.
 - Gross profit is sales less recipe ingredient cost, before order discounts, labor, rent, tax and other operating costs.
 - Daily backups are stored on the same machine and disk as `data/`; copy the backup folder elsewhere for disaster recovery.
+## Demo Accounts
+| Role    | Username | Password |
+|---------|----------|----------|
+| Admin   | admin    | (password) |
+| Cashier | cashier  | (password) |
+
+## How to Run
+- Windows: double-click `run.bat`
+- Mac/Linux: run `./run.sh`
 
 ## 7. Possible enhancements (for "Recommendations")
 
